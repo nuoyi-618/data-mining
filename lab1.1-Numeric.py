@@ -44,6 +44,8 @@ plt.xlabel('v1')
 plt.ylabel('Probability')
 plt.savefig("pdf.jpg")  
 
+
+
 Dvar=[] #存储方差
 Dcov= copy.copy(Dcov1) #存储协方差 
 for i in range(0,10):
